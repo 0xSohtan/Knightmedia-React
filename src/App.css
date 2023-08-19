@@ -19,7 +19,7 @@
 @media screen and (min-width: 1280px) and (max-width: 1440px) {
 
     .main-content {
-        margin: 0px 10%; 
+        margin: 0px 10%;
     }
 }
 
@@ -38,5 +38,32 @@
     .main-content {
         margin: 0px 5%;
     }
-    
+
+    .space {
+        margin-top: 100px;
+    }
+
+    .buttons {
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+
+    .button-blue {
+        color: white;
+        background-color: blue;
+    }
+
+    .termin-button-white {
+        background-color: white;
+    }
+
+    .header-description {
+        font-size: 18px;
+    }
+
+    .content-heading {
+        font-family: Circular-Bold;
+        font-size: 30px;
+    }
+
 }

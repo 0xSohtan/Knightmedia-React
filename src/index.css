@@ -76,3 +76,19 @@ h2 {
   font-family: Circular-Light;
   text-align: center;
 }
+
+/* Laptop */
+@media screen and (min-width: 1280px) and (max-width: 1440px) {}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1023px) {}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+
+  h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+}

@@ -6,9 +6,9 @@ export default function Header() {
         <div className="nav-section">
             <Link to="/">Knightmedia</Link>
             <ul className="nav-links">
-                <li className="nav-link-item mobile"><a href="#/">Über mich</a></li>
-                <li className="nav-link-item mobile"><a href="#/">Services</a></li>
-                <li className="nav-link-item mobile"><a href="#/">FAQ</a></li>
+                <li className="nav-link-item mobile"><a href="/#aboutme">Über mich</a></li>
+                <li className="nav-link-item mobile"><a href="/#services">Services</a></li>
+                <li className="nav-link-item mobile"><a href="#faq">FAQ</a></li>
                 <li className="nav-link-item"><a href="#/" className="button-blue buttons">Termin vereinbaren</a></li>
             </ul>
         </div>

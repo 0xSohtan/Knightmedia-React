@@ -26,6 +26,17 @@
     background-color: white;
 }
 
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .nav-section {
+        display: flex;
+        justify-content: space-between;
+        margin: 75px 5%;
+    }
+
+}
+
 @media screen and (max-width: 767px) {
 
     .mobile {

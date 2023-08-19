@@ -32,6 +32,14 @@
     padding-bottom: 30px;
 }
 
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .footer-link-box {
+        margin: 75px 25px;
+    }
+
+}
 /* Mobile */
 @media screen and (max-width: 767px) {
 
