@@ -1,13 +1,78 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: Circular-Black;
+  src: url(assets/fonts/CircularStd-Black.otf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: Circular-Book;
+  src: url(assets/fonts/CircularStd-Book.otf);
+}
+
+@font-face {
+  font-family: Circular-BlackItalic;
+  src: url(assets/fonts/CircularStd-BlackItalic.otf);
+}
+
+@font-face {
+  font-family: Circular-Bold;
+  src: url(assets/fonts/CircularStd-Bold.otf);
+}
+
+@font-face {
+  font-family: Circular-BoldItalic;
+  src: url(assets/fonts/CircularStd-BoldItalic.otf);
+}
+
+@font-face {
+  font-family: Circular-BookItalic;
+  src: url(assets/fonts/CircularStd-BookItalic.otf);
+}
+
+@font-face {
+  font-family: Circular-Light;
+  src: url(assets/fonts/CircularStd-Light.otf);
+}
+
+@font-face {
+  font-family: Circular-LightItalic;
+  src: url(assets/fonts/CircularStd-Light\ Italic.otf);
+}
+
+@font-face {
+  font-family: Circular-Medium;
+  src: url(assets/fonts/CircularStd-Medium.otf);
+}
+
+@font-face {
+  font-family: Circular-MediumItalic;
+  src: url(assets/fonts/CircularStd-MediumItalic.otf);
+}
+
+* {
+  font-family: Circular-Book;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: Circular-Light;
+  text-align: center;
 }

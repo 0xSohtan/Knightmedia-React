@@ -1,0 +1,50 @@
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 75px 15%;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-link-item {
+    padding: 0px 20px;
+}
+
+.buttons {
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.button-blue {
+    color: white;
+    background-color: blue;
+}
+
+.termin-button-white {
+    background-color: white;
+}
+
+@media screen and (max-width: 767px) {
+
+    .mobile {
+        display: none;
+    }
+
+    .nav-section {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 5%;
+    }
+
+    .nav-links {
+        display: flex;
+    }
+
+    .nav-link-item {
+        font-size: 15px;
+        padding: 0px 5px;
+    }
+    
+}

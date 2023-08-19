@@ -1,0 +1,271 @@
+/* Header */
+
+.large {
+    font-size: large;
+}
+
+.header-section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-description {
+    margin-top: 30px;
+}
+
+.header-buttons-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.header-button {
+    margin: 50px 20px;
+}
+
+.padding-bottom {
+    padding-bottom: 15px;
+}
+
+/* About Me */
+
+.about-me-section {
+    margin-top: 150px;
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-section img {
+    margin-top: -250px;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 500px;
+}
+
+.about-me-description {
+    color: white;
+    font-size: 20px;
+}
+
+.about-me-infos {
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+/* Content One */
+
+.content-one {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-image-left {
+    height: 400px;
+}
+
+.content-image-right {
+    height: 400px;
+}
+
+.content-image-right-1 {
+    height: 300px;
+}
+
+.content-info-box {
+    width: 40%;
+    justify-content: center;
+}
+
+.content-heading {
+    font-family: Circular-Bold;
+    font-size: 40px;
+}
+
+.content-description {
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+/* Icons */
+
+.icons-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+}
+
+.icons-section img{
+    height: 40px;
+}
+
+/* Grid */
+
+.work-img {
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.how-we-work-box {
+    background-color: rgb(243, 243, 243);
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 50px 50px;
+}
+
+.grid {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3);
+}
+
+.grid-item {
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-item img {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.work-together-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.work-together-box img {
+    height: 350px;
+    width: 275px;
+    border-radius: 10px;
+}
+
+.work-together-item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.work-heading {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.work-paragraph {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.work-button {
+    display: flex;
+    justify-content: center;
+}
+
+/* Customer */
+
+.customer-reviews-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.customer-reviews-heading{
+    text-align: start;
+}
+
+.customer-reviews-item{
+    width: 30%;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+/* Laptop */
+@media screen and (min-width: 1280px) and (max-width: 1440px) {}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1023px) {}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+
+    /* About Me */
+
+    .about-me-section {
+        margin-top: 100px;
+        border-radius: 10px;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 5%;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-me-section img {
+        margin-top: -150px;
+        margin-bottom: 50px;
+        height: 300px;
+        width: 300px;
+    }
+    
+    .about-me-description {
+        color: white;
+        font-size: 18px;
+    }
+    
+    .about-me-infos {
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+
+    /* Icons */
+
+    .icons-section{
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        grid-template-rows: repeat(3);
+        align-items: center;
+        padding: 15px 15px;
+        background-color: rgb(243, 243, 243);
+        border-radius: 10px;
+    }
+    
+    .icons-section img{
+        height: 20px;
+    }
+
+}

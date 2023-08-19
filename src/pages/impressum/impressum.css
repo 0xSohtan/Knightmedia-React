@@ -1,0 +1,38 @@
+.text-content-heading{
+    font-family: Circular-Black;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.text-content-paragraph{
+    font-family: Circular-Light;
+}
+
+.text-item{
+    margin-top: 50px;
+}
+
+.text-content-space{
+    margin-top: 30px;
+}
+
+/* Laptop */
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+
+    
+
+}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+
+
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+
+
+    
+}
